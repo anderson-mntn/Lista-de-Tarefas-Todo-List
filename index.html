@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#128213 Todo List </title> <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>Todo List</header>
+<section>
+    <input type="text" class="todo-input" placeholder="Type a task">
+    <button class="todo-button"><img src="plus.png" id="plusimg"></button><br>
+    <select name="filter" class="filter-todo" id="fltr">
+        <option value="all">All</option>
+        <option value="completed">Completed</option>
+        <option value="uncompleted">Uncompleted</option>
+    </select>
+    <button class="filter-todo" id="deleteAll">Delete All</button>
+</section>
+
+<nav class="todo-container">
+    <ul class="todo-list"></ul>
+</nav>
+
+<div id="day" class="sect">
+        <div id="year"></div>,&nbsp;
+        <div id="month"></div>&nbsp;
+        <span id="mday"></span>
+    </div>
+    <div id="dayHrs" class="sect">        
+        <div id="weekday"></div>
+        <div id="asf"></div> <span id="hours">00</span>
+        <span>:</span>
+        <span id="minutes">00</span>
+        <span>:</span>
+        <span id="seconds">00</span>&nbsp;
+        <div id="am-pm"></div>
+    </div>
+</div>
+
+<script src="myscript.js"></script>
+
+</body>
+</html>
