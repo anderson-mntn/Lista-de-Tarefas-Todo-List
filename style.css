@@ -219,10 +219,10 @@ header, .filter-todo, #dayHrs, #day{
      margin: 5px 8px;
     }
     .todo-input{
-        height: 38px;
+        height: 40px;
     }
     .todo-button{ 
-        height:38px
+        height:40px
     }
 }
 @media only screen and (max-width: 375px){
@@ -279,5 +279,8 @@ header, .filter-todo, #dayHrs, #day{
 @media only screen and (max-width: 240px){
     .todo-button{
         transform: translateY(20%);
+     }
+     #fltr{
+        text-align: center;
      }
 }
