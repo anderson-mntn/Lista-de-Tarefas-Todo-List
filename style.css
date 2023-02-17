@@ -102,7 +102,7 @@ header, .filter-todo, #dayHrs, #day{
 
 .todo li{  
     flex: 1;
-    font-size: 27px;
+    font-size: 6.5vw;
     margin-top: -10px;
     color:rgb(19, 35, 49);
     min-width: 15%;
@@ -206,7 +206,7 @@ header, .filter-todo, #dayHrs, #day{
 @media only screen and (max-width: 722px){
     
     .comp-btn, .del-btn{
-        font-size: 27px;
+        font-size: 6.5vw;
     }
   
     #dayHrs{
@@ -277,6 +277,9 @@ header, .filter-todo, #dayHrs, #day{
         text-align: center;
         margin-left: 5px;
     }
+  .todo-item{
+    margin-left: 5px;
+  }
     
 }
 
