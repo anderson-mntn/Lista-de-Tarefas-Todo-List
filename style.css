@@ -224,8 +224,8 @@ header, .filter-todo, #dayHrs, #day{
     .todo-button{ 
         height:40px
     }
-  todo li {
-  font-size: 4vw;
+  .todo li {
+    font-size: 4vw;
   }
 }
 @media only screen and (max-width: 375px){
@@ -283,8 +283,8 @@ header, .filter-todo, #dayHrs, #day{
   .todo-item{
     margin-left: 5px;
   }
-  todo li {
-  font-size: 6vw;
+  .todo li {
+    font-size: 6vw;
   }
     
 }
