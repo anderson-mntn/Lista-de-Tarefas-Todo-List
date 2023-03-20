@@ -102,7 +102,7 @@ header, .filter-todo, #dayHrs, #day{
 
 .todo li{  
     flex: 1;
-    font-size: 2vw;
+    font-size: 3vw;
     margin-top: -10px;
     color:rgb(19, 35, 49);
     min-width: 15%;
@@ -203,10 +203,10 @@ header, .filter-todo, #dayHrs, #day{
    
 /* ----------------- MEDIA QUERY ---------- */ 
 
-@media only screen and (max-width: 722px){
+@media only screen and (max-width: 802px){
     
     .comp-btn, .del-btn{
-        font-size: 5vw;
+        font-size: 4.5vw;
     }
   
     #dayHrs{
@@ -224,9 +224,9 @@ header, .filter-todo, #dayHrs, #day{
     .todo-button{ 
         height:40px
     }
-  .todo li {
-    font-size: 4vw;
-  }
+    .todo-list li {
+        font-size: 5vw;
+    }
 }
 @media only screen and (max-width: 375px){
   
@@ -283,10 +283,13 @@ header, .filter-todo, #dayHrs, #day{
   .todo-item{
     margin-left: 5px;
   }
-  .todo li {
-    font-size: 6vw;
+  .todo-list li {
+    font-size: 8vw;
   }
-    
+  .comp-btn, .del-btn{
+    margin: 5px;
+    font-size: 1rem;
+}    
 }
 
 @media only screen and (max-width: 240px){
@@ -310,5 +313,6 @@ header, .filter-todo, #dayHrs, #day{
     
      .todo-input{
         height: 39px;
-     }
+    }
+    
 }
