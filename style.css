@@ -206,7 +206,7 @@ header, .filter-todo, #dayHrs, #day{
 @media only screen and (max-width: 722px){
     
     .comp-btn, .del-btn{
-        font-size: 6.5vw;
+        font-size: 5vw;
     }
   
     #dayHrs{
@@ -224,6 +224,9 @@ header, .filter-todo, #dayHrs, #day{
     .todo-button{ 
         height:40px
     }
+  todo li {
+  font-size: 4vw;
+  }
 }
 @media only screen and (max-width: 375px){
   
@@ -279,6 +282,9 @@ header, .filter-todo, #dayHrs, #day{
     }
   .todo-item{
     margin-left: 5px;
+  }
+  todo li {
+  font-size: 6vw;
   }
     
 }
