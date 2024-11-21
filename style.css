@@ -228,7 +228,7 @@ header, .filter-todo, #dayHrs, #day{
         font-size: 5vw;
     }
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 455px){
   
     body{
         min-width: 100%;
