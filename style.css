@@ -274,7 +274,7 @@ header, .filter-todo, #dayHrs, #day{
     }
     .todo-button{
         height: 39px;
-        transform: translateY(18%);
+        transform: translateY(20%);
     }
     #fltr{
         text-align: center;
