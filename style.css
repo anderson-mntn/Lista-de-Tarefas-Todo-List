@@ -288,9 +288,14 @@ header, .filter-todo, #dayHrs, #day{
   }
   .comp-btn, .del-btn{
     margin: 5px;
-    font-size: 1.7rem;
+    } 
+  .comp-btn{
+    font-size: 1.6rem;
      width: 2rem;
-} 
+  }
+  .del-btn{
+    font-size: 1.2rem;
+  }
 }
 
 @media only screen and (max-width: 240px){
